@@ -1,7 +1,7 @@
 import React from 'react';
 import './features.css';
 
-const ArticlFeatures = () => {
+const Features = () => {
   return (
     <div>
       Features
