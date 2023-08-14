@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=F627pKNUCVQ&t=19601s
+
+How to build and deploy Modern React App - steps:
+	1. get the hosting and the domain name - using "Hostinger"
+		- aim: for new site, your portfolio, any website you'll create
+		- How to pay? -> "Claim deal", "Add to cart", using the code: JAVASCRIPTMASTERY  ,
+		48 Months -> 2.49$ -> Have a coupon code? - JAVASCRIPTMASTERY -> Apply ->
+		Hostinger dashboard -> Claim domain -> "gpt3-jsm" (first app)-> Claim domain
+		Home -> Premium Shared Hosting -> we check "Setup" -> Start now -> Skip -> Choose a domain -> "Finish Setup"
+		100 websites, free SSL Certificate, free email, free domain name
+		
+	2. Terminal -> npx create-react-app ./
+	
+	3. creating folder "src" and file "index.js"
+	file: "index.js" -> import React from 'react';  import ReactDOM from 'react-dom';
+	ReactDOM.render(<App />, document.getElementById('root'));   import App from './App';	import './index.css';	
+		3.1  we remove comments from index.html file 
+		3.2 in "App.js" -> rafce + Enter 
+		3.3 in in "App.js" in "Terminal" -> npm install react-icons .....-> npm start
+		3.4 folder "components" , folder "brand", folder "cta", folder "feature", folder "navbar" 
+			folder article -> "article.css", "Article.jsx" the same for brand, cta, feature, navbar
+	
+	4. in file: "App.js" -> 
+		import React from 'react';
+
+		import Article from './components/Article/Article'
+		import Brand from './components/Brand/Brand' 
+		..... the same for CTA , feature, navbar 
+		
+	5. in file components/index.js:  
+		export {default as Article } from  './article/Article'
+		..... the same for Brand, CTA, Featue, Navbar
+		
+	6. in file: "App.js" -> 
+		on second line we add: import {Article, Brand, CTA } from './components/';
+		
+	7. folder "containers" with folders: "blog, features, footer, header, possibility, whatGPT3
+		
