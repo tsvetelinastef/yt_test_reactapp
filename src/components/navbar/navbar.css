@@ -21,6 +21,7 @@
     width: 62.56px;
     height: 16.02px;
 }
+/* pixels(width and height) are from the Figma file/link in the browser */ 
 
 .gpt3__navbar-links_container {
     display: flex;
