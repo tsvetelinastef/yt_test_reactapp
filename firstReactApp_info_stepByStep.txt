@@ -185,10 +185,12 @@ How to build and deploy Modern React App - steps:
      </div>
 	*** to create the "Sign in" button in the right  
 	
+	... const [toggleMenu, setToggleMenu] = useState(false);
+	toggleMenu -> for setting the menu 
+	setToggleMenu -> for changing the menu
 	
-	
-	
-	
+======================================================================================================================================
+	10. 
 	
 	
 	
