@@ -63,6 +63,19 @@
 
 .gpt3__navbar-sign button, 
 .gpt3__navbar-menu_container button {
+
+/*  Figma settings don't look nice, style is not good, 
+    so the settings from this: 
+        width:  152px;
+        height: 58px;
+        left: 1153px;
+        top: 55px;
+
+        background: #FF4820;
+        border-radius: 5px;
+
+    ...turns to this: 
+*/
     padding: 0.5rem 2rem;
     color: #fff;
     background: #FF4820;
