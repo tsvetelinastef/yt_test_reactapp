@@ -44,6 +44,17 @@
     line-height: 25px;
     text-transform: capitalize;
 
+/* from the Figma design pixels:
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    .... identical to box height
+    color: #FFFFFF;
+*/
+
     margin: 0 1rem;
     cursor: pointer;
 }
