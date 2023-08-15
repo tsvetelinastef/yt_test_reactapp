@@ -92,8 +92,62 @@ How to build and deploy Modern React App - steps:
 	https://animista.net/play/bascic/scale-up/scale-up-center
 	
 	... import the logos in Navbar.jsx and make the styling in navbar.css
+	lines 20 to 24: 
+		.gpt3__navbar-links_logo img {
+			width: 62.56px;
+			height: 16.02px;
+		}
+	/* pixels(width and height) are from the Figma file/link in the browser */ 
+	designers make the design of the app in Figma and there I can click on the elements to check the pixels of each element-image, text, etc.
+
+	Meanwhile the file Navbar.jsx looks like: 
 	
+	import React, {useState} from 'react';
+	import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+	import logo from '../../assets/logo.svg';
+	import './navbar.css';
+
+	const Navbar = () => {
+	  return (
+		<div className="gpt3__navbar">
+		  <div className="gpt3__navbar-links">
+			<div className="gpt3__navbar-links_logo"> 
+			<img src={logo} alt="logo" />
+		  </div>
+		  
+		  </div>
+		</div>
+	  )
+	}
 	
+	export default Navbar
+	
+	.... this turns to: 
+	import React, {useState} from 'react';
+	import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+	import logo from '../../assets/logo.svg';
+	import './navbar.css';
+
+	const Navbar = () => {
+	  return (
+		<div className="gpt3__navbar">
+		  <div className="gpt3__navbar-links">
+			 <div className="gpt3__navbar-links_logo"> 
+				<img src={logo} alt="logo" />
+		  </div>
+				<div className="gpt3__navbar-links_container"> 
+					<p><a href='#home'>Home</a></p>
+					<p><a href='#wgpt3'>What is GPT3?</a></p>
+					<p><a href='#possibility'>Open AI</a></p>
+					<p><a href='#features'>Case Studies</a></p>
+					<p><a href='#blog'>Library</a></p>
+				</div>
+		  </div>
+		</div>
+	  )
+	}
+	
+	export default Navbar
 	
 
 	
