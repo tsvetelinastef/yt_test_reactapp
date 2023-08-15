@@ -100,8 +100,7 @@ How to build and deploy Modern React App - steps:
 	/* pixels(width and height) are from the Figma file/link in the browser */ 
 	designers make the design of the app in Figma and there I can click on the elements to check the pixels of each element-image, text, etc.
 
-	Meanwhile the file Navbar.jsx looks like: 
-	
+	***Meanwhile the file Navbar.jsx looks like: 
 	import React, {useState} from 'react';
 	import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 	import logo from '../../assets/logo.svg';
@@ -119,9 +118,8 @@ How to build and deploy Modern React App - steps:
 		</div>
 	  )
 	}
-	
 	export default Navbar
-	
+	==================================================================
 	.... this turns to: 
 	import React, {useState} from 'react';
 	import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
@@ -146,9 +144,35 @@ How to build and deploy Modern React App - steps:
 		</div>
 	  )
 	}
-	
 	export default Navbar
 	
+	...this makes links to appear in the left up corner next to the logo: GPT-3
+	
+	==============================================================================
+	in "navbar.css" line 37 - 49 make links to look in line:
+		.gpt3__navbar-links_container p,
+		.gpt3__navbar-sign p,
+		.gpt3__navbar-menu_container p {
+			color: #fff;
+			font-family: var(--font-family);
+			font-weight: 500;  /* this make text look a bit bolder */
+			font-size: 18px;
+			line-height: 25px;
+			text-transform: capitalize;
 
+			margin: 0 1rem;
+			cursor: pointer;
+		}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
