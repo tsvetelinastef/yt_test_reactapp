@@ -9,6 +9,7 @@ How to build and deploy Modern React App - steps:
 		Home -> Premium Shared Hosting -> we check "Setup" -> Start now -> Skip -> Choose a domain -> "Finish Setup"
 		100 websites, free SSL Certificate, free email, free domain name
 		
+	====================================================================================================================================
 	2. Terminal -> npx create-react-app ./
 	
 	3. creating folder "src" and file "index.js"
@@ -20,6 +21,7 @@ How to build and deploy Modern React App - steps:
 		3.4 folder "components" , folder "brand", folder "cta", folder "feature", folder "navbar" 
 			folder article -> "article.css", "Article.jsx" the same for brand, cta, feature, navbar
 	
+	====================================================================================================================================
 	4. in file: "App.js" -> 
 		import React from 'react';
 
@@ -48,7 +50,7 @@ How to build and deploy Modern React App - steps:
 			}
 			export default Blog
 			
-			
+	===================================================================================================================================	
 	8. in file containers/index.js:  
 		export {default as Blog } from  './blog/Blog'
 		..... the same for Features, Footer, Header, Possibility, WhatGPT3
@@ -83,8 +85,16 @@ How to build and deploy Modern React App - steps:
 
 	export default App
 	
+	==================================================================================================================================
+	9. http://angrytools.com/gradient/  we use for the gradient theme of our website
+	we choose the colors and than copy the gradient code 
 	
-	9. 
+	https://animista.net/play/bascic/scale-up/scale-up-center
+	
+	... import the logos in Navbar.jsx and make the styling in navbar.css
+	
+	
+	
 
 	
 	
