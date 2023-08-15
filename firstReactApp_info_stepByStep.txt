@@ -34,5 +34,25 @@ How to build and deploy Modern React App - steps:
 	6. in file: "App.js" -> 
 		on second line we add: import {Article, Brand, CTA } from './components/';
 		
-	7. folder "containers" with folders: "blog, features, footer, header, possibility, whatGPT3
-		
+	7. folder "containers" with folders: "blog" with files: "Blog.jsx", "blog.css" ..... , features, footer, header, possibility, whatGPT3	
+	jsx files contain:  
+			import React from 'react';
+			import './blog.css';
+			
+			const Blog = () => {
+				return (
+					<div>
+						Blog
+					</div>
+				)
+			}
+			export default Blog
+			
+			
+	8. in file containers/index.js:  
+		export {default as Blog } from  './blog/Blog'
+		..... the same for Features, Footer, Header, Possibility, WhatGPT3
+	
+	
+	
+	
