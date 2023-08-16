@@ -9,7 +9,7 @@ How to build and deploy Modern React App - steps:
 		Home -> Premium Shared Hosting -> we check "Setup" -> Start now -> Skip -> Choose a domain -> "Finish Setup"
 		100 websites, free SSL Certificate, free email, free domain name
 		
-	====================================================================================================================================
+====================================================================================================================================
 	2. Terminal -> npx create-react-app ./
 	
 	3. creating folder "src" and file "index.js"
@@ -21,7 +21,8 @@ How to build and deploy Modern React App - steps:
 		3.4 folder "components" , folder "brand", folder "cta", folder "feature", folder "navbar" 
 			folder article -> "article.css", "Article.jsx" the same for brand, cta, feature, navbar
 	
-	====================================================================================================================================
+================================================================================================================================================	
+================================================================================================================================================
 	4. in file: "App.js" -> 
 		import React from 'react';
 
@@ -50,7 +51,8 @@ How to build and deploy Modern React App - steps:
 			}
 			export default Blog
 			
-	===================================================================================================================================	
+============================================================================================================================================			
+============================================================================================================================================	
 	8. in file containers/index.js:  
 		export {default as Blog } from  './blog/Blog'
 		..... the same for Features, Footer, Header, Possibility, WhatGPT3
@@ -85,7 +87,9 @@ How to build and deploy Modern React App - steps:
 
 	export default App
 	
-	==================================================================================================================================
+
+=========================================================================================================================================
+=========================================================================================================================================
 	9. http://angrytools.com/gradient/  we use for the gradient theme of our website
 	we choose the colors and than copy the gradient code 
 	
@@ -119,7 +123,7 @@ How to build and deploy Modern React App - steps:
 	  )
 	}
 	export default Navbar
-	==================================================================
+	----------------------------------------------------------------------------------------------------
 	.... this turns to: 
 	import React, {useState} from 'react';
 	import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
@@ -148,7 +152,7 @@ How to build and deploy Modern React App - steps:
 	
 	...this makes links to appear in the left up corner next to the logo: GPT-3
 	
-	==============================================================================
+	---------------------------------------------------------------------------------------------------------
 	in "navbar.css" line 37 - 49 make links to look in line:
 		.gpt3__navbar-links_container p,
 		.gpt3__navbar-sign p,
@@ -176,7 +180,7 @@ How to build and deploy Modern React App - steps:
 			margin: 0 1rem;
 			cursor: pointer;
 		}
-	==================================================================
+	----------------------------------------------------------------------------------------------------------
 	... in Navbar.jsx, is added: 
 	</div>
       <div className="gpt3__navbar-sign"> 
@@ -189,6 +193,7 @@ How to build and deploy Modern React App - steps:
 	toggleMenu -> for setting the menu 
 	setToggleMenu -> for changing the menu
 	
+======================================================================================================================================	
 ======================================================================================================================================
 	10. in App.js we look at the Header  
 	we add div in Header.jsx file and than styling in header.css file 
@@ -197,6 +202,7 @@ How to build and deploy Modern React App - steps:
 	<div className="gpt3__header-image">
           <img src={ai} alt="ai" />
     </div> 
+	
 	
 	
 	
