@@ -27,7 +27,60 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 27px;
+   /* color: #81AFDD; */
+   color: var(--color-text);
+   margin-top: 1.5rem;
+}
 
-    color: #81AFDD;
+.gpt3__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+/*  text/description to be white  */
+.gpt3__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+/*  font-style: normal;
+    font-weight: normal;
+    ... this stays by default */
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--color-footer);
+/*  background: #052D56; */
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-radius: 5px 0px 0px 5px;
+/*  color: #3D6184;  */
+}
+
+/* design the button */
+.gpt3__header-content__input button {
+    flex: 0.6; /* this makes the button take more space*/
+    width: 100%;
+    min-height: 50px;
+    /* than we go in Header.jsx and remove these lines: 
+    <div className="gpt3__header-image">
+          <img src={ai} alt="ai" />
+    </div> 
+    ....for everything to look much better */
+    
+
+    /* after we add the coordinates the line is still long too much 
+    so we should add the lines 64, 65, 66 */
+    background: #FF4820;
+    border-radius: 5px 0px 0px 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
 }
 

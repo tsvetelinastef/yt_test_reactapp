@@ -192,6 +192,12 @@ How to build and deploy Modern React App - steps:
 ======================================================================================================================================
 	10. in App.js we look at the Header  
 	we add div in Header.jsx file and than styling in header.css file 
+
+	making better style in "header.css" and than for the better style of the button, must be comment out these lines in Header.jsx:
+	<div className="gpt3__header-image">
+          <img src={ai} alt="ai" />
+    </div> 
+	
 	
 	
 	
