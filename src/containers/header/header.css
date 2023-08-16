@@ -1,0 +1,9 @@
+.gpt3__header {
+    display: flex;
+}
+
+/* it have div and everything inside of it */
+.gpt3__header-content {
+    flex: 1;
+}
+

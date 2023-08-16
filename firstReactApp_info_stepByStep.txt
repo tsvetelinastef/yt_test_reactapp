@@ -190,7 +190,9 @@ How to build and deploy Modern React App - steps:
 	setToggleMenu -> for changing the menu
 	
 ======================================================================================================================================
-	10. 
+	10. in App.js we look at the Header  
+	we add div in Header.jsx file and than styling in header.css file 
+	
 	
 	
 	
