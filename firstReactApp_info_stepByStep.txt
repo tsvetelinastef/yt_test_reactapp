@@ -205,6 +205,20 @@ How to build and deploy Modern React App - steps:
 	
 	
 	
+	after adding the lines in the file: "header.css"
+		.gpt3__header-content__people p {
+			margin: 0 0 0 1rem;
+			font-family: var(--font-family);
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 38px;
+			color: #FFFFFF;
+			text-align: center;
+		}
+	... going to uncomment lines in the file: "Header.jsx" 
+	
+	
+	
 	
 	
 	
