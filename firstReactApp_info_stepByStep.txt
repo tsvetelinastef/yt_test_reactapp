@@ -224,8 +224,9 @@ How to build and deploy Modern React App - steps:
 	in Brand.jsx -> must be imported those brands from imports.js with the div for each brand
 	... and the brands appear in the bottom of our website 
 	
+	and now in brand.css to make them stylish ... also if it fits for mobile versions, tablet, laptop...
 	
-	
-	
+	--------------------------------------------------------------------------------------------------------------------------------------------
+	... next in our list (file App.js ) is whatGPT3
 	
 	
