@@ -1,0 +1,15 @@
+.gpt3__whatgpt3 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+  */
+    background:-moz-radial-gradient(circle);
+
+    /* safari: 5.1+, chrome 10+ */
+    background:-webkit-radial-gradient(circle);
+
+    /* opera  */
+}

@@ -227,6 +227,7 @@ How to build and deploy Modern React App - steps:
 	and now in brand.css to make them stylish ... also if it fits for mobile versions, tablet, laptop...
 	
 	--------------------------------------------------------------------------------------------------------------------------------------------
-	... next in our list (file App.js ) is whatGPT3
+	... next in our list (file App.js ) is "whatGPT3"
+	first we edit the react file, than the css
 	
 	
