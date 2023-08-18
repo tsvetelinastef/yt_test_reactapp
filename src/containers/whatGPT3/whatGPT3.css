@@ -56,10 +56,11 @@
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
-    font-family: var(--font-family);
     max-width: 510px;
+    font-family: var(--font-family);
 }
 
+/* for "Explore The Library"  */
 .gpt3__whatgpt3-heading p {
     font-family: var(--font-family);
     font-weight: 500;
