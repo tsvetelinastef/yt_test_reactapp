@@ -238,5 +238,6 @@ How to build and deploy Modern React App - steps:
 	
 	in "feature.css" -> we style the titles lines 18-27
 	
-	
+	now from the list "App.js" -> the next is Features , so 
+	we go to modify the file: "Features.jsx" 
 	
