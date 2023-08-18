@@ -231,3 +231,7 @@ How to build and deploy Modern React App - steps:
 	first we edit the react file, than the css
 	
 	
+	... Feature.jsx, WhatGPT3.jsx - title ... adding the title and the description in the right .. line 12 in WhatGPT3.jsx 
+	than the three titles for Chatbots, Knowledgebase, Education
+	
+	
