@@ -34,3 +34,12 @@
     margin-top: 2rem;
 }
 
+.gpt3__fetures-container {
+   flex: 1.5; 
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
