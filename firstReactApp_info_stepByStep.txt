@@ -240,4 +240,6 @@ How to build and deploy Modern React App - steps:
 	
 	now from the list "App.js" -> the next is Features , so 
 	we go to modify the file: "Features.jsx" 
+	editting file: "features.css" ... lines 19-25 
+	
 	
