@@ -1,5 +1,34 @@
 .gpt3__possibility {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
+}
+
+.gpt3__possibility-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-right: 2rem;
+}
+
+.gpt3__possibility-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.gpt3__possibility-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;    
+}
+
+.gpt3__possibility-content h4 {
+
+}
+
+.gpt3__possibility-content h4:last-child {
     
 }
