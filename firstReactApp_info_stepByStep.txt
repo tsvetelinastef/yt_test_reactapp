@@ -249,4 +249,6 @@ How to build and deploy Modern React App - steps:
 	
 	next for editting is when we press "OpenAi" in Navbar to have navigation to the OpenAi section of the page
 	
+	next we move to the next thing in the list in App.js - CTA (Click To Action) - we need CTA.jsx and cta.css
+	
 	
