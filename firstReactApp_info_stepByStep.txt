@@ -241,5 +241,12 @@ How to build and deploy Modern React App - steps:
 	now from the list "App.js" -> the next is Features , so 
 	we go to modify the file: "Features.jsx" 
 	editting file: "features.css" ... lines 19-25 
+	...............................................................
+	
+	until now everything is implemented - when you select the buttons in Navbar we have a good navigation 
+	
+	--------------------------------------------------------------------------------------------------------------------------------------------
+	
+	next for editting is when we press "OpenAi" in Navbar to have navigation to the OpenAi section of the page
 	
 	
