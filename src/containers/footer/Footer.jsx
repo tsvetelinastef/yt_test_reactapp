@@ -38,6 +38,10 @@ const Footer = () => {
           <p>info@payme.net</p> 
         </div>
       </div>
+
+      <div className="gpt3__footer-copyright">
+        <p>© 2021 GPT-3. All rights reserved.</p>
+      </div>
     </div>
   )
 }
