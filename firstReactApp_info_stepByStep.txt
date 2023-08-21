@@ -251,4 +251,6 @@ How to build and deploy Modern React App - steps:
 	
 	next we move to the next thing in the list in App.js - CTA (Click To Action) - we need CTA.jsx and cta.css
 	
+	.... "Article.jsx" , "article.css"  ...... "Blog.jsx" , "blog.css"
+	
 	

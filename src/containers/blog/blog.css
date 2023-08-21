@@ -1,0 +1,15 @@
+.gpt3__blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__blog-heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.gpt3__blog-heading h1 {
+    
+}
+
