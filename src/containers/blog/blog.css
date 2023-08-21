@@ -68,10 +68,11 @@
     }
 }
 
+/* for better look in other devices */
 @media screen and (max-width: 550px) {
     .gpt3__blog_heading h1 {
-        font-size: 46px;
-        line-height: 52px;
+        font-size: 34px;
+        line-height: 42px;
     }
 }
 
