@@ -86,3 +86,20 @@
     flex-direction: column;
 }
 
+.gpt3__footer-links_div h4 {
+    font-family:var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF; 
+    margin-bottom: 1rem; 
+}
+
+.gpt3__footer-links_div p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
