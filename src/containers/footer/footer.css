@@ -103,3 +103,17 @@
     cursor: pointer;
 }
 
+.gpt3__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt3__footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+/*  font-feature-settings: 'liga' off;  */
+    color: #FFFFFF;
+}
+
