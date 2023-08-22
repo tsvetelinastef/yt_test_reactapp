@@ -259,3 +259,50 @@ How to build and deploy Modern React App - steps:
 ==============================================================================================================================================================================
 
 		
+		
+		
+		
+		from "View" -> Terminal .... or just drop the Terminal from bottom of the page
+		-> "Ctrl + C"  for stop it from running 
+		-> "clear"
+		-> "npm run build" 
+		I see the folder: "build" I click on it and choose "Reveal in File Explorer"
+		after I know where "build" folder is - I have to deploy my app in some fast server/host in this video I saw example with Hostinger
+		the hostinger's dashboard https://hostinger.com/javascript 
+		
+		Steps for the deployment: 
+		1. "Log in" in the profile 
+		2. find the hosting for the domain name ... 
+		for example in part "Hosting": 
+					we see some line: "gpt3-jsm.com" -> we press the button next to it called "Manage"
+					than we scroll down and go to the section: "Files" and choose "File Manager"
+					than on the left side should have the folder:  "public_html" select it also and 
+					from the right we should double-click the  "public_html => /domains/gpt3-jsm.com/public_html" 
+					we see some "default.php" file so we check and delete it 
+					
+					than I open from my File Explorer the folder: "build" and than drag-and-drop all the files 
+					in this folder straight into the current webpage in the browser (hostinger) 
+					and we simply upload them (that way they will be deployed )
+					
+		3.			before go ahead and check the website - have to set up the SSL certificate
+					in the first tab, where is actually my hostinger account ... (in the second tab are my uploaded files) 
+					in the left I see the Hostinger plan and check my website if is there in "Main Domain" I should see "gpt3-jsm.com"
+		
+		4.			go in the search bar and type: SSL , select it , install it and done than go to the dashboard
+		
+		5. 			in the dashboard and check our website by clicking on the link "gpt3-jsm.com" in "Main Domain" and 
+					we saw our website with the SSL certificate, but it don't have the first image so in this case: 
+					Search bar type "file Manager", select it and click on the folder: "public_html" and 
+					if I open folder "static" and than folder "media" we see all of the images 
+					but that one that misses(that don't shows in our website) is in the previous folder "static" instead of in the folder "media" 
+					so we select that png and click by the arrow in the right corner "Move" 
+					after that we change the destination by simply clicking on the blue box called "Change" that select folder -> 
+					"static" and than "media" , button "Select this" and than btn "Move"  
+					
+		6. go reload our website and it's all fineeee and ready 
+					
+					
+		
+		
+		
+		
